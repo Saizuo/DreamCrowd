@@ -15,7 +15,7 @@ const Footer = () => {
     Resources: [
       { name: 'Portfolio', href: '/#portfolio' },
       { name: 'Blog', href: '/blog' },
-      { name: 'Forums', href: 'https://forum.magnimont.com/' },
+      { name: 'Forums', href: 'https://forum.DreamCrowd.com/' },
       { name: 'Status', href: '/status' },
     ],
     Legal: [
@@ -27,9 +27,9 @@ const Footer = () => {
 
   const socialLinks = [
     { name: 'Twitter', href: 'https://x.com/', icon: Twitter },
-    { name: 'GitHub', href: 'https://github.com/Magnimont', icon: Github },
-    { name: 'LinkedIn', href: 'https://www.linkedin.com/company/magnimont/', icon: Linkedin },
-    { name: 'Discord', href: 'https://discord.gg/magnimont-876113814314164256', icon: DiscordLogoIcon },
+    { name: 'GitHub', href: 'https://github.com/DreamCrowd', icon: Github },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/company/DreamCrowd/', icon: Linkedin },
+    { name: 'Discord', href: 'https://discord.gg/DreamCrowd-876113814314164256', icon: DiscordLogoIcon },
   ];
 
   return (

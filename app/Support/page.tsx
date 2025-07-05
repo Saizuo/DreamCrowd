@@ -15,10 +15,10 @@ const Support: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Support - Magnimont</title>
+        <title>Support - DreamCrowd</title>
         <meta
           name="description"
-          content="Get support from Magnimont for website issues, services, or inquiries."
+          content="Get support from DreamCrowd for website issues, services, or inquiries."
         />
       </Head>
       <main className="px-8 pt-20 text-center bg-black text-white min-h-screen">

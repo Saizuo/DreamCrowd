@@ -51,7 +51,7 @@ const testimonials = [
     company: "GreenTech Solutions",
     avatar: "/api/placeholder/64/64",
     rating: 5,
-    quote: "We've been using Magnimont for 8 months now. The uptime has been perfect, and their support team actually understands technical issues. Worth every penny.",
+    quote: "We've been using DreamCrowd for 8 months now. The uptime has been perfect, and their support team actually understands technical issues. Worth every penny.",
     highlight: "Perfect uptime"
   },
   {

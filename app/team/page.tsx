@@ -36,11 +36,11 @@ const teamMembers: TeamMember[] = [
     joinedYear: "2021",
     avatar: "VJ",
     gradient: "from-red-500 via-orange-500 to-yellow-500",
-    achievements: ["Founded Magnimont", "150+ Projects Delivered", "AI Innovation Leader"],
+    achievements: ["Founded DreamCrowd", "150+ Projects Delivered", "AI Innovation Leader"],
     funFact: "Can code in 8+ programming languages",
     social: {
       linkedin: "#",
-      email: "vikas@magnimont.com"
+      email: "vikas@DreamCrowd.com"
     }
   },
   {
@@ -56,7 +56,7 @@ const teamMembers: TeamMember[] = [
     funFact: "Speaks 4 languages fluently",
     social: {
       linkedin: "#",
-      email: "mohammed@magnimont.com"
+      email: "mohammed@DreamCrowd.com"
     }
   },
   {
@@ -73,7 +73,7 @@ const teamMembers: TeamMember[] = [
     social: {
       linkedin: "#",
       twitter: "#",
-      email: "zahara@magnimont.com"
+      email: "zahara@DreamCrowd.com"
     }
   },
   {
@@ -89,7 +89,7 @@ const teamMembers: TeamMember[] = [
     funFact: "Can predict trends before they happen",
     social: {
       linkedin: "#",
-      email: "akash@magnimont.com"
+      email: "akash@DreamCrowd.com"
     }
   },
   {
@@ -106,7 +106,7 @@ const teamMembers: TeamMember[] = [
     social: {
       github: "#",
       linkedin: "#",
-      email: "vimukthi@magnimont.com"
+      email: "vimukthi@DreamCrowd.com"
     }
   },
   {
@@ -123,7 +123,7 @@ const teamMembers: TeamMember[] = [
     social: {
       github: "#",
       linkedin: "#",
-      email: "niranjan@magnimont.com"
+      email: "niranjan@DreamCrowd.com"
     }
   },
 ];
@@ -254,7 +254,7 @@ export default function TeamMembers() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              The Minds Behind <span style={gradientTextStyles}>Magnimont</span>
+              The Minds Behind <span style={gradientTextStyles}>DreamCrowd</span>
             </h1>
             
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed mb-8">
@@ -462,7 +462,7 @@ export default function TeamMembers() {
                     Our <span style={gradientTextStyles}>Culture</span>
                   </h3>
                   <p className="text-gray-300 max-w-2xl mx-auto">
-                    What makes Magnimont special isn't just our skills – it's how we work together
+                    What makes DreamCrowd special isn't just our skills – it's how we work together
                   </p>
                 </div>
 

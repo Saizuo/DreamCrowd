@@ -6,20 +6,20 @@ import Footer from "@/components/common/Footer";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: "Magnimont",
-  description: "Magnimont description metatag",
+  title: "DreamCrowd",
+  description: "DreamCrowd description metatag",
   keywords:
-    "Magnimont, digital agency, web development, AI solutions, software",
+    "DreamCrowd, digital agency, web development, AI solutions, software",
   authors: [{ name: "Vikas Nath Jha" }], // Replace with actual author names
   alternates: {
     canonical: "https://www.canonical.ie/",
   },
   openGraph: {
-    url: "https://www.magnimont.com",
-    title: "Magnimont",
+    url: "https://www.DreamCrowd.com",
+    title: "DreamCrowd",
     description:
       "Software for Ventures",
-    siteName: "Magnimont",
+    siteName: "DreamCrowd",
     images: [
       {
         url: "/images/favico.svg",
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@magnimont",
-    creator: "@magnimont",
-    title: "Magnimont",
+    site: "@DreamCrowd",
+    creator: "@DreamCrowd",
+    title: "DreamCrowd",
     description:
       "Software for Ventures",
     images: [

@@ -9,14 +9,14 @@ const employees = [
     id: 1,
     name: "Saizuo(Vikas Nath Jha)",
     role: "CEO & Founder",
-    quote: "We didn't just build a company at Magnimont—we created an environment of innovation, team work and true care Each day, our team store this desire for the well-made of which spurs us onward to make built goods that aim not only towards meet however, exceed. We are proud of being people that lift each other up and fill our brains with new ideas all the times, in a business where no one ever feels like they have outworked or accomplished by anyone else. The energy is infectious and this collective determination propels us to constantly question what could be.",
+    quote: "We didn't just build a company at DreamCrowd—we created an environment of innovation, team work and true care Each day, our team store this desire for the well-made of which spurs us onward to make built goods that aim not only towards meet however, exceed. We are proud of being people that lift each other up and fill our brains with new ideas all the times, in a business where no one ever feels like they have outworked or accomplished by anyone else. The energy is infectious and this collective determination propels us to constantly question what could be.",
     image: "/images/CEO_Vikas.jpg",
   },
   {
     id: 2,
     name: "Mohammed Jariullah",
     role: "CHRO",
-    quote: "Until now Magnimont was truly an incredible journey of growing as a person and professional. But at the end of the day we clearly stand out because of our staunch commitment to cultivate a welcoming work culture. The people who work here are all about delivering the very best, and they always have been. A place where all team members are valued, listened to and provided the possibility for growth.",
+    quote: "Until now DreamCrowd was truly an incredible journey of growing as a person and professional. But at the end of the day we clearly stand out because of our staunch commitment to cultivate a welcoming work culture. The people who work here are all about delivering the very best, and they always have been. A place where all team members are valued, listened to and provided the possibility for growth.",
     image: "/images/CHRO_Jariullah.jpg",
   },
 ];
