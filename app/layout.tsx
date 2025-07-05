@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.DreamCrowd.com",
     title: "DreamCrowd",
     description:
-      "Software for Ventures",
+      "Dreams Meet Heights.",
     siteName: "DreamCrowd",
     images: [
       {
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     creator: "@DreamCrowd",
     title: "DreamCrowd",
     description:
-      "Software for Ventures",
+      "Dreams Meet Heights.",
     images: [
       {
         url: "/images/favico.svg", // Update the path accordingly
