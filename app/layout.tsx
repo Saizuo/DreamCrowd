@@ -1,24 +1,22 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import NavbarComponent from "@/components/common/NavBar";
-import { manrope } from "@/lib/fonts";
+import { manrope, ppNeueMachina } from "@/lib/fonts";
 import Footer from "@/components/common/Footer";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: "DreamCrowd",
   description: "DreamCrowd description metatag",
-  keywords:
-    "DreamCrowd, digital agency, web development, AI solutions, software",
-  authors: [{ name: "Vikas Nath Jha" }], // Replace with actual author names
+  keywords: "DreamCrowd, digital agency, web development, AI solutions, software",
+  authors: [{ name: "Vikas Nath Jha" }],
   alternates: {
     canonical: "https://www.canonical.ie/",
   },
   openGraph: {
     url: "https://www.DreamCrowd.com",
     title: "DreamCrowd",
-    description:
-      "Dreams Meet Heights.",
+    description: "Dreams Meet Heights.",
     siteName: "DreamCrowd",
     images: [
       {
@@ -34,11 +32,10 @@ export const metadata: Metadata = {
     site: "@DreamCrowd",
     creator: "@DreamCrowd",
     title: "DreamCrowd",
-    description:
-      "Dreams Meet Heights.",
+    description: "Dreams Meet Heights.",
     images: [
       {
-        url: "/images/favico.svg", // Update the path accordingly
+        url: "/images/favico.svg",
         alt: "Og Image Alt",
       },
     ],
@@ -51,10 +48,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`dark antialiased bg-[#030303] relative overflow-x-hidden ${manrope.className}`}
-      >
+    <html lang="en" className={`${manrope.variable} ${ppNeueMachina.variable}`}>
+      <body className="dark antialiased bg-[#030303] relative overflow-x-hidden font-[var(--font-ppneue)]">
         <NavbarComponent />
         {children}
         <Footer />

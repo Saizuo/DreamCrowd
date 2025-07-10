@@ -147,7 +147,7 @@ export default function CreatorConfirmation() {
           className="text-center space-y-6"
         >
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link href="/creator/dashboard">
+            <Link href="/success">
               <Button
                 size="lg"
                 className="text-white font-semibold border-0 hover:scale-105 transition-all duration-300 px-10 py-4 text-lg rounded-full"

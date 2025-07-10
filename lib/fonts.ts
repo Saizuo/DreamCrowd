@@ -1,4 +1,6 @@
-import { Caveat, Fredoka, Poppins, Manrope } from "next/font/google";
+// lib/fonts.ts
+import localFont from "next/font/local";
+import { Manrope } from "next/font/google";
 
 export const manrope = Manrope({
   subsets: ["latin"],
@@ -6,14 +8,24 @@ export const manrope = Manrope({
   variable: "--font-inter",
 });
 
-// export const krona = Krona_One({ subsets: ["latin"], weight: ["400"] });
-export const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["300", "500", "600", "700", "800"],
+export const ppNeueMachina = localFont({
+  src: [
+    {
+      path: "../app/fonts/PPNeueMachina-PlainLight.otf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../app/fonts/PPNeueMachina-PlainRegular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../app/fonts/PPNeueMachina-PlainUltrabold.otf",
+      weight: "900",
+      style: "normal",
+    },
+  ],
+  variable: "--font-ppneue",
   display: "swap",
-  variable: "--font-poppins",
-});
-
-export const caveat = Caveat({
-  subsets: ["latin"],
 });

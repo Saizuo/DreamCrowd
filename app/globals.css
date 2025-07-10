@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --font-ppneue: 'PPNeueMachina', sans-serif;
+}
+
+
 body::-webkit-scrollbar {
   width: 6px;
   border-radius: 10px;
@@ -11,12 +16,21 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
+@font-face {
+  font-family: 'PPNeueMachina';
+  src: url('/fonts/PPNeueMachina-PlainRegular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .font-calsans {
-  font-family: "Cal Sans", s "system-ui";
+  font-family: 'PPNeueMachina', Arial, sans-serif !important;
 }
+
 .font-inter {
-  font-family: var(--font-inter);
+  font-family: 'PPNeueMachina', Arial, sans-serif !important;
 }
+
 
 .btn {
   cursor: pointer;
